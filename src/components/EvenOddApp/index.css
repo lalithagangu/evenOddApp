@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #334155, #bfe9ff);
+  border-radius: 10px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: #1e293b;
+}
+.text {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #334155;
+}
+.increment-button {
+  border-radius: 2px;
+  border-width: 1px;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #334155;
+  padding: 10px;
+}
+.description {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #334155;
+}
